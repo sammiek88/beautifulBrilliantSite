@@ -1,0 +1,33 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: red;
+  margin: 20px 60px 30px;
+  padding: 1em;
+}
+
+.companyLogoImage {
+  float: none;
+  margin: 0 auto;
+}
+
+.leftImage {
+  background-color: blue;
+  padding: 5px 0px 0px;
+}
+
+.rightImage {
+  padding: 0px 40px 0px 0px;
+}
+
+.sponsorid {
+  position: relative;
+  float: right;
+  margin-bottom: 4rem;
+}
+
+.introText {
+  text-align: center;
+}
