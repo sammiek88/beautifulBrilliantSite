@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: #f7f7f7;
 }
 
@@ -12,6 +12,10 @@ h1 {
 .companyLogoImage {
   float: none;
   margin: 0 auto;
+}
+
+img.sponsorLogo {
+  color: blue;
 }
 
 .leftImage {
