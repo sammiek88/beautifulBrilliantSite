@@ -9,6 +9,17 @@ h1 {
   padding: 1em;
 }
 
+/*About*/
+.sec-about {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  color: #c00;
+}
+
+.row-grey {
+  background: #111;
+  color: #ddd;
+}
 .companyLogoImage {
   float: none;
   margin: 0 auto;
