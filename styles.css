@@ -8,12 +8,20 @@ h1 {
   margin: 20px 60px 30px;
   padding: 1em;
 }
+h5 {
+  margin-left: 200px;
+}
 
 /*About*/
 .sec-about {
   text-align: center;
-  background: rgba(0, 0, 0, 0.5);
-  color: #c00;
+  background-color: #716f81;
+  color: #f7f7f7;
+}
+
+.webshopButton {
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 5px;
 }
 
 .row-grey {
@@ -46,4 +54,17 @@ img.sponsorLogo {
 
 .introText {
   text-align: center;
+}
+
+.productCard {
+  background-image: url('images/flowersBackground.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: black;
+  max-width: 100%;
+  text-align: center;
+}
+
+.card-text {
+  margin-left: 200px;
 }
