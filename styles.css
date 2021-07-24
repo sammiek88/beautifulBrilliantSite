@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f7f7f7;
 }
 
 h1 {
@@ -16,7 +15,7 @@ h5 {
 .sec-about {
   text-align: center;
   background-color: #716f81;
-  color: #f7f7f7;
+  color: black;
 }
 
 .webshopButton {
@@ -54,6 +53,7 @@ img.sponsorLogo {
 
 .introText {
   text-align: center;
+  color: #f7f7f7;
 }
 
 .productCard {
