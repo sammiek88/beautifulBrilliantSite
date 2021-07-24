@@ -49,9 +49,14 @@ h5 {
 }
 
 .introText {
+  background-color: #f7f7f7;
   text-align: center;
   color: black;
-  margin-top: 70%;
+  margin-top: 15%;
+}
+
+.carouselpics {
+  margin-top: 300px;
 }
 
 .productCard {
