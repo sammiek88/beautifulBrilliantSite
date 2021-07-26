@@ -59,6 +59,7 @@ h5 {
 .nav-link3 {
   font-size: 24px;
 }
+
 .productCard {
   background-image: url('images/flowersBackground.jpg');
   background-size: contain;
@@ -70,4 +71,20 @@ h5 {
 
 .card-text {
   margin-left: 200px;
+}
+
+#webshoplink:hover::before {
+  color: #716f81;
+  content: 'Webshop';
+  transition: ease-in-out 150ms;
+}
+#loyaltyclub:hover::before {
+  color: #716f81;
+  content: 'Loyalty Club';
+  transition: ease-in-out 150ms;
+}
+#joinessens:hover::before {
+  color: #716f81;
+  content: 'Join Essens';
+  transition: ease-in-out 150ms;
 }
