@@ -40,6 +40,7 @@ h5 {
   padding-left: 15px;
   padding-right: 15px;
   position: relative;
+  border-radius: 4px;
 }
 
 .sponsorid {
@@ -53,12 +54,11 @@ h5 {
   text-align: center;
   color: black;
   margin-top: 15%;
+  border-radius: 4px;
 }
-
-.carouselpics {
-  margin-top: 300px;
+.nav-link3 {
+  font-size: 24px;
 }
-
 .productCard {
   background-image: url('images/flowersBackground.jpg');
   background-size: contain;
