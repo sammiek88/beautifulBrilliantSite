@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto', sans-serif;
 
   background-image: url('Images/amin-rk-e5a8TlCzV10-unsplash.jpg');
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: center top 10%;
