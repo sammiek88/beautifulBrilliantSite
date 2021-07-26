@@ -90,10 +90,10 @@ h5 {
   color:black;
 }
 .nav-link2:hover{
-  color:white;
+  color:#a23740;
 }
 .nav-link2{
-  color:grey;
+  color:black;
 }
 
 .nav-linkthree {
@@ -140,4 +140,24 @@ h5 {
   color: black);
   content: 'Join Essens';
   transition: ease-in-out 150ms;
+}
+
+#contactbutton{
+  padding: 3px 4px 2px 2px ;
+  border-radius: 4px;
+  box-shadow: 1px 1px grey, -1em 0 .4em black;
+  font-weight: 800;
+}
+
+#travelbutton{
+  padding: 3px 4px 2px 2px ;
+  border-radius: 4px;
+  box-shadow: 0.1px 0.1px black, 1em 0 .4em black;
+  font-weight: 800;
+ 
+
+#facebookbutton{
+  padding: 3px 4px 2px 2px ;
+  border-radius: 4px;
+  box-shadow: 1px 1px grey, 1em 0 .4em black;
 }
