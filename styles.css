@@ -56,8 +56,52 @@ h5 {
   margin-top: 15%;
   border-radius: 4px;
 }
-.nav-link3 {
+.introone{
+  line-height: 2em;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 3%;
+}
+.introtwo{
+  line-height: 2em;
+  font-size: 18px;
+  font-weight: 900;
+}
+.introthree{
+  line-height: 2em;
+  font-size: 18px;
+  font-weight: 1000;
+}
+.introfour{
+  line-height: 2em;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.introfive{
   font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-linkone:hover{
+  color:grey;
+}
+.nav-linkone{
+  color:white;
+}
+.nav-link2:hover{
+  color:white;
+}
+.nav-link2{
+  color:grey;
+}
+
+.nav-linkthree {
+  font-size: 40px;
+  color: blue;
+}
+.nav-link {
+  color: black;
 }
 
 .productCard {
@@ -73,19 +117,27 @@ h5 {
 .card-text {
   margin-left: 200px;
 }
-
+#webshoplink:hover {
+  color: black;
+}
 #webshoplink:hover::before {
-  color: #716f81;
+  color: black;
   content: 'Webshop';
   transition: ease-in-out 150ms;
 }
+#loyaltyclub:hover {
+  color: black;
+}
 #loyaltyclub:hover::before {
-  color: #716f81;
+  color: black;
   content: 'Loyalty Club';
   transition: ease-in-out 150ms;
 }
+#joinessens:hover {
+  color: black;
+}
 #joinessens:hover::before {
-  color: #716f81;
+  color: black);
   content: 'Join Essens';
   transition: ease-in-out 150ms;
 }
