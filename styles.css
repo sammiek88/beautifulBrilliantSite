@@ -147,6 +147,7 @@ h5 {
   border-radius: 4px;
   box-shadow: 1px 1px grey, -1em 0 .4em black;
   font-weight: 800;
+  font-size: 14px;
 }
 
 #travelbutton{
@@ -154,10 +155,11 @@ h5 {
   border-radius: 4px;
   box-shadow: 0.1px 0.1px black, 1em 0 .4em black;
   font-weight: 800;
- 
+  font-size: 14px;
+}
 
 #facebookbutton{
-  padding: 3px 4px 2px 2px ;
+  padding: 1px 1px 1px 1px ;
   border-radius: 4px;
   box-shadow: 1px 1px grey, 1em 0 .4em black;
 }
