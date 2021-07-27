@@ -13,9 +13,7 @@ h1 {
   margin: 20px 60px 30px;
   padding: 1em;
 }
-h5 {
-  margin-left: 200px;
-}
+
 
 .sideNavItem {
   font-size: 30px;
@@ -104,19 +102,24 @@ h5 {
   color: black;
 }
 
-.productCard {
-  background-image: url('images/flowersBackground.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  color: black;
-  max-width: 100%;
-  text-align: left;
-  margin-top: 5%;
+
+.perfumeLink{
+  text-align: center;
 }
 
-.card-text {
-  margin-left: 200px;
+
+.pic1{
+padding: 262px, 180px
 }
+
+.footerbuttons{
+  margin: 0 auto; 
+    text-align: center;
+    width: inherit;
+    display: inline-block;
+  margin-top: 70px;
+}
+
 #webshoplink:hover {
   color: black;
 }
