@@ -169,3 +169,9 @@ padding: 262px, 180px
   box-shadow: 1px 1px grey, 1em 0 .4em black;
 
 }
+
+#trustpilotfooter{
+
+  display: block;
+  margin:0 auto;
+}
