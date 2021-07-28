@@ -3,66 +3,245 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script
+      src="https://kit.fontawesome.com/0986a9ce9c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>BB About Essens</title>
   </head>
   <body>
-    <p>Who we are Our website address is: https://beautifulbrilliant.com.</p>
-    <p>
-      What personal data we collect and why we collect it<br />
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: Ad7jmBE9ndSXmU6HiaBrAQ2,
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: 'v11.0',
+        });
+      };
+    </script>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+    <!--to find fb id https://graph.facebook.com/alwaysbeBB-->
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat"></div>
 
-      Comments: When visitors leave comments on the site we collect the data
-      shown in the comments form, and also the visitor’s IP address and browser
-      user agent string to help spam detection. An anonymised string created
-      from your email address (also called a hash) may be provided to the
-      Gravatar service to see if you are using it. The Gravatar service Privacy
-      Policy is available here: https://automattic.com/privacy/. After approval
-      of your comment, your profile picture is visible to the public in the
-      context of your comment.<br />
-      Media: If you upload images to the website, you should avoid uploading
-      images with embedded location data (EXIF GPS) included. Visitors to the
-      website can download and extract any location data from images on the
-      website.<br />
-      Contact forms: All data is not saved – only emailed to
-      samanthakenyon@beautifulbrilliant.com <br />
-      Cookies: If you leave a comment on our site you may opt in to saving your
-      name, email address and website in cookies. These are for your convenience
-      so that you do not have to fill in your details again when you leave
-      another comment. These cookies will last for one year. If you visit our
-      login page, we will set a temporary cookie to determine if your browser
-      accepts cookies. This cookie contains no personal data and is discarded
-      when you close your browser. When you log in, we will also set up several
-      cookies to save your login information and your screen display choices.
-      Login cookies last for two days, and screen options cookies last for a
-      year. If you select “Remember Me”, your login will persist for two weeks.
-      If you log out of your account, the login cookies will be removed. If you
-      edit or publish an article, an additional cookie will be saved in your
-      browser. This cookie includes no personal data and simply indicates the
-      post ID of the article you just edited. It expires after 1 day.
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute('page_id', '101380762235401');
+      chatbox.setAttribute('attribution', 'biz_inbox');
+
+      window.fbAsyncInit = function () {
+        FB.init({
+          xfbml: true,
+          version: 'v11.0',
+        });
+      };
+
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_GB/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'facebook-jssdk');
+    </script>
+
+    <div class="container">
+      <div class row>
+        <div class="col"></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">BB - Privacy Policy</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <img
+            src="Images/reworkedessenslogo.png"
+            class="img-fluid sponsorLogo"
+            alt="Logo"
+            width="20%"
+          />
+        </nav>
+      </div>
       <br />
-      Embedded content from other websites: Articles on this site may include
-      embedded content (e.g. videos, images, articles, etc.). Embedded content
-      from other websites behaves in the exact same way as if the visitor has
-      visited the other website. These websites may collect data about you, use
-      cookies, embed additional third-party tracking, and monitor your
-      interaction with that embedded content, including tracking your
-      interaction with the embedded content if you have an account and are
-      logged in to that website. Analytics Who we share your data with Google
-      Analytics & Facebook How long we retain your data If you leave a comment,
-      the comment and its metadata are retained indefinitely. This is so we can
-      recognise and approve any follow-up comments automatically instead of
-      holding them in a moderation queue. For users that register on our website
-      (if any), we also store the personal information they provide in their
-      user profile. All users can see, edit, or delete their personal
-      information at any time (except they cannot change their username).
-      Website administrators can also see and edit that information. What rights
-      you have over your data If you have an account on this site, or have left
-      comments, you can request to receive an exported file of the personal data
-      we hold about you, including any data you have provided to us. You can
-      also request that we erase any personal data we hold about you. This does
-      not include any data we are obliged to keep for administrative, legal, or
-      security purposes. Where we send your data Visitor comments may be checked
-      through an automated spam detection service.
-    </p>
+
+      <div class="row">
+        <div class="col-8 leftLogo">
+          <img
+            src="Images/logoTransparent.png"
+            class="img-fluid"
+            alt="Logo"
+            width="40%"
+          />
+        </div>
+
+        <br />
+
+        <script src=""></script>
+        <h2>Who we are</h2>
+        <p>Our website address is: "https://beautifulbrilliant.com"</p>
+
+        <h2>What personal data we collect and why we collect it</h2>
+
+        <br />
+        <h4>Comments</h4>
+        <p>
+          When visitors leave comments on the site we collect the data shown in
+          the comments form, and also the visitor’s IP address and browser user
+          agent string to help spam detection.
+        </p>
+
+        <p>
+          An anonymised string created from your email address (also called a
+          hash) may be provided to the Gravatar service to see if you are using
+          it. The Gravatar service Privacy Policy is available here:
+          https://automattic.com/privacy/. After approval of your comment, your
+          profile picture is visible to the public in the context of your
+          comment.
+        </p>
+
+        <h4>Media</h4>
+        <p>
+          If you upload images to the website, you should avoid uploading images
+          with embedded location data (EXIF GPS) included. Visitors to the
+          website can download and extract any location data from images on the
+          website.
+        </p>
+
+        <h4>Forms</h4>
+        <p>
+          All data is not saved – only emailed to
+          samanthakenyon@beautifulbrilliant.com
+        </p>
+
+        <h4>Cookies</h4>
+        <p>
+          If you leave a comment on our site you may opt in to saving your name,
+          email address and website in cookies. These are for your convenience
+          so that you do not have to fill in your details again when you leave
+          another comment. These cookies will last for one year.
+        </p>
+
+        <p>
+          If you visit our login page, we will set a temporary cookie to
+          determine if your browser accepts cookies. This cookie contains no
+          personal data and is discarded when you close your browser.
+        </p>
+        <p>
+          When you log in, we will also set up several cookies to save your
+          login information and your screen display choices. Login cookies last
+          for two days, and screen options cookies last for a year. If you
+          select “Remember Me”, your login will persist for two weeks. If you
+          log out of your account, the login cookies will be removed.
+        </p>
+        <p>
+          If you edit or publish an article, an additional cookie will be saved
+          in your browser. This cookie includes no personal data and simply
+          indicates the post ID of the article you just edited. It expires after
+          1 day.
+        </p>
+        <br />
+
+        <h4>Embedded content from other websites</h4>
+        <p>
+          Articles on this site may include embedded content (e.g. videos,
+          images, articles, etc.). Embedded content from other websites behaves
+          in the exact same way as if the visitor has visited the other website.
+        </p>
+        <p>
+          These websites may collect data about you, use cookies, embed
+          additional third-party tracking, and monitor your interaction with
+          that embedded content, including tracking your interaction with the
+          embedded content if you have an account and are logged in to that
+          website.
+        </p>
+
+        <h4>Analytics</h4>
+        <p>Who we share your data with Google Analytics & Facebook</p>
+
+        <h4>How long we retain your data</h4>
+        <p>
+          If you leave a comment, the comment and its metadata are retained
+          indefinitely. This is so we can recognise and approve any follow-up
+          comments automatically instead of holding them in a moderation queue.
+        </p>
+
+        <p>
+          For users that register on our website (if any), we also store the
+          personal information they provide in their user profile. All users can
+          see, edit, or delete their personal information at any time (except
+          they cannot change their username). Website administrators can also
+          see and edit that information.
+        </p>
+
+        <h4>What rights you have over your data</h4>
+        <p>
+          If you have an account on this site, or have left comments, you can
+          request to receive an exported file of the personal data we hold about
+          you, including any data you have provided to us. You can also request
+          that we erase any personal data we hold about you. This does not
+          include any data we are obliged to keep for administrative, legal, or
+          security purposes.
+        </p>
+
+        <h4>Where we send your data</h4>
+        <p>
+          Visitor comments may be checked through an automated spam detection
+          service.
+        </p>
+
+        <script src="script.js"></script>
+      </div>
+    </div>
   </body>
 </html>
