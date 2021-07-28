@@ -120,6 +120,7 @@ padding: 262px, 180px
   margin-top: 70px;
 }
 
+
 #webshoplink:hover {
   color: black;
 }
@@ -174,4 +175,11 @@ padding: 262px, 180px
 
   display: block;
   margin:0 auto;
+}
+
+#trustpilottop{
+margin-top: 5%;
+  position: relative;
+  margin: 10px 15px 15px 10px;
+
 }
