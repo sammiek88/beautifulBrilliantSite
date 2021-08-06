@@ -163,6 +163,17 @@ padding: 262px, 180px
   font-size: 18px;
  
 }
+.oceancleanup{
+  background: linear-gradient(135deg, #C0FEFC 60%, #f5f6fa)!important;
+  left:0;
+  right:0;
+
+}
+
+.bmwelementscar{
+  display: block;
+  margin: 0 auto;
+}
 
 #facebookbutton{
   
